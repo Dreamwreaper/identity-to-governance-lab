@@ -1,28 +1,28 @@
-# Automation Overview
+# IAM Automation Scripts
 
-PowerShell automation was used to support identity governance and access review processes.
+## Overview
+These scripts demonstrate automation of identity lifecycle, access control, and governance using Microsoft Graph PowerShell.
 
-## Tasks Automated
+## Scripts Included
 
-- User provisioning (Entra ID)
-- Group creation and assignment
-- Access review data export
+### create-users.ps1
+Automates user provisioning in Entra ID.
 
-## Access Review Evidence
+### assign-groups.ps1
+Assigns users to RBAC groups.
 
-The following report was generated using Microsoft Graph PowerShell to validate group structure and membership.
-
-This demonstrates the ability to support audit and compliance requirements.
-
-![Access Review Report](../screenshots/access-review-groups.png)
+### access-review.ps1
+Generates access review reports for audit and compliance.
 
 ## Security Value
 
 Automation enables:
-- Consistent identity management
-- Scalable governance processes
+
+- Consistent identity provisioning
+- Scalable access control
 - Audit-ready reporting
+- Reduced manual administrative effort
 
 ## Insight
 
-Access reviews are critical for identifying excessive permissions and enforcing least privilege across environments.
+IAM is not just configuration — it requires automation to operate effectively at scale.
