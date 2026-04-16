@@ -1,32 +1,21 @@
-# Entra ID Configuration
+## Group-Based Access Control
 
-## Objective
-Establish identity structure to support role-based access control and governance.
+The following security groups were created to enforce role-based access control:
 
-## Identity Design
+- Privileged_Admins (high-risk administrative access)
+- IT_Admins (technical operations)
+- HR_Team (business function access)
+- Employees (standard user access)
 
-The following users were created to simulate an enterprise environment:
-
-- Admin User (privileged access)
-- IT Admin (administrative operations)
-- HR User (business role)
-- Standard User (least privilege)
-
-## Access Strategy
-
-Users were structured to support:
-- Role-based access control (RBAC)
+This structure supports:
 - Separation of duties
 - Least privilege enforcement
-
-## Security Insight
-
-Proper identity structuring is critical to enforcing access control and reducing risk of privilege misuse.
+- Scalable access management
 
 ---
 
 ## Evidence
 
-This screenshot shows user accounts created to represent different roles within an organization.
+This screenshot demonstrates the group structure used to enforce role-based access control.
 
-![Entra Users](../screenshots/entra-users.png)
+![Entra Groups](../screenshots/entra-groups.png)
