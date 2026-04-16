@@ -184,6 +184,11 @@ It reflects real-world IAM responsibilities including:
 - Security monitoring
 
 ---
+## Automation
+
+PowerShell scripts were used to automate identity lifecycle management, group assignment, and access review reporting using Microsoft Graph.
+
+This demonstrates operational IAM capabilities beyond manual configuration.
 
 ## Author
 
