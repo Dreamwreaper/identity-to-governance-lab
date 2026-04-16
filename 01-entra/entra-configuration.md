@@ -1,22 +1,32 @@
 # Entra ID Configuration
 
 ## Objective
-Establish identity foundation using Microsoft Entra ID.
+Establish identity structure to support role-based access control and governance.
 
-## Users
-- user1
-- admin1
+## Identity Design
 
-## Groups
-- Employees
-- Admins
+The following users were created to simulate an enterprise environment:
 
-## Role Assignments
-- admin1 assigned administrative privileges
+- Admin User (privileged access)
+- IT Admin (administrative operations)
+- HR User (business role)
+- Standard User (least privilege)
 
-## Controls Implemented
-- Role-Based Access Control (RBAC)
-- Group-based access management
+## Access Strategy
+
+Users were structured to support:
+- Role-based access control (RBAC)
+- Separation of duties
+- Least privilege enforcement
 
 ## Security Insight
-Centralized identity enables enforcement of least privilege and monitoring of authentication activity.
+
+Proper identity structuring is critical to enforcing access control and reducing risk of privilege misuse.
+
+---
+
+## Evidence
+
+This screenshot shows user accounts created to represent different roles within an organization.
+
+![Entra Users](../screenshots/entra-users.png)
